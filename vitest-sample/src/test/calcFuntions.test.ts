@@ -42,4 +42,4 @@ describe('calcFunctions モジュールのテスト (モックを使用)', () =>
       expect(result).toBe(150)  // 100 + 50 = 150
     })
   
-  })
+})
