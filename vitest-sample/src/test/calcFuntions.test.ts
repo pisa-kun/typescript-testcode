@@ -1,4 +1,5 @@
-import { describe, it, expect, vi } from 'vitest'
+// import { describe, it, expect, vi } from 'vitest'
+import { vi } from 'vitest'
 import { calcResult } from '../utils/calcFunctions'
 import * as calc from '../utils/calc'  // calc.ts からモジュールをインポート
 
