@@ -1,4 +1,4 @@
-import { sum } from '../test/sum'
+import { sum } from '../utils/sum'
 
 describe('sum 関数のテスト', () => {
   it('2 + 3 は 5 であるべき', () => {
