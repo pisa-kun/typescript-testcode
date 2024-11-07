@@ -146,5 +146,14 @@ package.jsonにjestのコマンドを追加します。
 pnpm run test
 ```
 
+### 基本的なmatcher
+Vitest で使用できる基本的なマッチャーを一通りカバーするテストコードを作成します。Vitest では Jest と似たマッチャーが多数提供されており、以下のマッチャーを使うことができます：
+
+toBe / toEqual / toBeTruthy / toBeFalsy
+toBeGreaterThan / toBeLessThan
+toContain / toMatch
+toHaveLength / toHaveProperty など
+
+
 #### 参考
 [Vitestでモックを使ってテストを書く時の備忘録](https://belonginc.dev/members/ryo/posts/vitest-mocks)
